@@ -8,7 +8,7 @@ import re
 MONGO_URI      = 'mongodb://localhost:27017/'
 DB_NAME        = 'blogdumoderateur'
 COLLECTION_NAME= 'articles'
-MAX_PAGES = 30
+MAX_PAGES = 50
 
 # Pages de listing à scrapper pour récupérer les URLs d'articles
 LISTING_URLS = [
